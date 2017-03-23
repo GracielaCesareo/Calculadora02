@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Calculadora</title>
+ </head>
+ <body>
+     <form  name="calculadora" id="calculadora">
+       <p><input type="number" id="calc" ></p>
+       <p>
+         <input type=reset value="C" name="limpiar">
+       </p>
+       <p>
+         <input type="button" value="7" onclick="agregarNumero( '7')"/>
+         <input type="button" value="8" onclick="agregarNumero('8')"/>
+         <input type="button" value="9" onclick="agregarNumero('9')"/>
+         <input type="button" value="/"  onclick="operacion(4)"/>
+       </p>
+       <p>
+         <input type="button" value="4" onclick="agregarNumero('4')"/>
+         <input type="button" value="5" onclick="agregarNumero('5')"/>
+         <input type="button" value="6" onclick="agregarNumero('6')"/>
+         <input type="button" value="*" onclick="operacion(3)"/>
+       </p>
+       <p>
+         <input type="button" value="1" onclick="asignarNumero('1')" onkeydown=""/>
+         <input type="button" value="2" onclick="asignarNumero('2')" onkeydown=/>
+         <input type="button" value="3" onclick="asignarNumero('3')" onkeydown=""/>
+         <input type="button" value="-" onclick="operacion(2)"/>
+       </p>
+       <p>
+         <input type="button" value="0" onclick="asignarNumero('0')"/>
+         <input type="button" value="EXP" onclick="operacion(5)"/>
+         <input type="button" value="+" onclick="operacion(1)"/>
+         <input type="button" value="=" onclick="resultado()"/>
+       </p>
+       <p>
+         <inpu
+       </p>
+     </form>
+   <script src="javascript02.js"></script>
+ </body>
+</html>
