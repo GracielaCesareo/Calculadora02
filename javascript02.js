@@ -1,11 +1,14 @@
-alert("hola");
 var numero1 = 0;
 var numero2 = 0;
 var operacion;
 
-//Funcion para agregar un numero en pantalla.
+//Funcion para agregar un numero o signo en pantalla.
 function agregarNumero(numero){
+   if(document.getElementById("calc").value == "0" || numero1 == 0){
+       numero1 = numero;
+   }else{
        numero1 += numero;
+   }
        document.getElementById("calc").value = numero1;
 }
 

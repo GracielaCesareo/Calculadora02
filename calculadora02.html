@@ -5,13 +5,16 @@
    <title>Calculadora</title>
  </head>
  <body>
+   <style>
+    body {
+      text-align: center;
+    }
+   </style>
+   <h1>Calculadora</h1>
      <form  name="calculadora" id="calculadora">
        <p><input type="number" id="calc" ></p>
        <p>
-         <input type=reset value="C" name="limpiar">
-       </p>
-       <p>
-         <input type="button" value="7" onclick="agregarNumero( '7')"/>
+         <input type="button" value="7" onclick="agregarNumero('7')"/>
          <input type="button" value="8" onclick="agregarNumero('8')"/>
          <input type="button" value="9" onclick="agregarNumero('9')"/>
          <input type="button" value="/"  onclick="operacion(4)"/>
@@ -30,12 +33,8 @@
        </p>
        <p>
          <input type="button" value="0" onclick="asignarNumero('0')"/>
-         <input type="button" value="EXP" onclick="operacion(5)"/>
          <input type="button" value="+" onclick="operacion(1)"/>
          <input type="button" value="=" onclick="resultado()"/>
-       </p>
-       <p>
-         <inpu
        </p>
      </form>
    <script src="javascript02.js"></script>
