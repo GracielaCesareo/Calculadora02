@@ -39,9 +39,6 @@ function resultado(){
         case 4:
             numero1 = numero2 / numero1;
         break;
-        case 5:
-            numero1 = Math.pow(numero2, numero1);
-        break;
     }
     document.getElementById("calc").value = numero1;
     numero2 = parseInt(numero1);
